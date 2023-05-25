@@ -1,0 +1,58 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.barra{
+   width: 30%;
+}
+
+.app{
+   font-size: 50px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Ultimo formulario
+   ========================================================================== */
+
+.cabecera-form{
+   display: flex;
+  justify-content: center;
+}
+
+.genero_form{
+   margin-left: 15%;
+   justify-content: center;
+}
+
+.botn-guardar{
+   width: 70%;
+   margin: 0 auto;
+}
+
+.botn-guardar2{
+   width: 100%;
+  
+}
+
+.cont-form{
+   width: 60%;
+   margin-left: 15%;
+   margin-top: 50px;
+}
+
+
+.elemnt-form{
+   width: 70%;
+   margin: 0 auto;
+}
+
+.disp{
+   margin: 0 auto;
+}
+

@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+	background-color: #1B7193;
+	background-image: url("../img/fondototal.png");
+	background-attachment: fixed;
+	background-repeat:  no-repeat;
+	background-position-x:center;
+	background-size: 100rem;
+	font-family: "Lato", sans-serif;
+}
+.contenedor {
+  display: block;
+  margin: auto;
+	width: 50%;
+}
+.contenedorimg {
+  display: block;
+  margin: auto;
+	width: 37%;
+}
+.footer {
+  background-color: #24303c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.total{
+	width: 100%;
+	height: 70%;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 450px;
+    width: 15%;
+    z-index: 1;
+    top: auto;
+    background-color: #051F2A;
+    padding-top: 20px;
+	position:fixed;
+	overflow: hidden;
+}
+.izquierdo{
+	height: 20%;
+	width: 15%;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  height: 500px;;
+  width: 70%;
+  margin-left: 17%;
+  position: relative;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #1B7193;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #103544;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

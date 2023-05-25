@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+	font-family: "Lato", sans-serif;
+}
+form#form1 {
+margin:auto;
+background: #24303c;
+font-size: 16px;
+padding: 30px;
+color: white;
+width: 450px;
+border:solid 5px #1B7193;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+box-shadow: 7px 13px 37px #000;
+}
+
+form#form1 fieldset {
+border: none;
+}
+
+form#form1 input{
+font-size:16px;
+font-family: "Lato", sans-serif;
+background: #24303c;
+color: white;
+border:solid 1px #1B7193;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+form#form1 select{
+font-family: "Lato", sans-serif;
+font-size:16px;
+color: white;
+background: #1B7193;
+border:solid 1px #1B7193;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 208px;
+}
+form#form1 ul li {
+line-height: 25px;
+list-style: none;
+}
+
+form#form1 [required]{
+border:solid 1px #1B7193;
+}
+
+input:required {
+outline: 1px solid #1B7193;
+}
+
+form#form1 button {
+  text-align:center;
+  width: 40%;
+  background-color: #1B7193;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 16px auto;
+  font-size: 16px;
+}

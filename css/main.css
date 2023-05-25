@@ -1,0 +1,71 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+   padding-top: 50px;
+}
+.color1{
+   background-color: #ff4444;
+}
+.color2{
+   background-color: #33b5e5;
+}
+.color3{
+   background-color: #8e44ad;
+}
+.color3{
+   background-color: black;
+}
+.color4{
+   background-color: #2ecc71;
+}
+.aspecto{
+   text-align: center;
+   /* border: solid;*/
+}
+
+.sin{
+   margin: none;
+   border-radius: 20px;
+
+}
+.imglogo{
+   margin-top: 15px;
+    width: 40%;
+    height: 80%;
+}
+
+.space1 {
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.video{
+   width: 100%;
+   height: 100%;
+}
+
+.col-xs-12 {
+    padding-top: 10px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
